@@ -1,0 +1,43 @@
+body {
+  padding-top: 5rem;
+  background-color: #eeeeff;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.filter-box {
+  border-radius: 0.25rem;
+  border: 1px solid #dddddd;
+  background-color: white;
+  margin: -0.6rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.product-box {
+  border-radius: 0.25rem;
+  border: 1px solid #dddddd;
+  background-color: white;
+  margin: -0.6rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.large-text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.medium-text {
+  font-size: 16px;
+  margin-top: 0.2em;
+  font-weight: 500;
+  margin-bottom: 0.2em;
+}
+
+.small-text {
+  font-size: 14px;
+  width: 100%;
+}
