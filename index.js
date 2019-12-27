@@ -20,3 +20,14 @@ mysqlConnection.connect(err => {
       "BD connection failed \n Error : " + JSON.stringify(err, undefined, 2)
     );
 });
+
+app.get('/', (req, res) =>{
+	res.send("Hello world");
+});
+
+app.listen(3000, (err) =>{
+	if(!err)
+		console.log("Listening on port 3000...");
+	else
+		console.log("Error in starting the server\n Error :" + JSON.stringify(err, undefined, 2));
+});
